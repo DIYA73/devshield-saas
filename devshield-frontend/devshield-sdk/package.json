@@ -1,0 +1,17 @@
+{
+  "name": "devshield-sdk",
+  "version": "1.0.2",
+  "description": "DevShield security middleware",
+  "main": "index.js",
+  "type": "commonjs",
+  "keywords": [
+    "security",
+    "express",
+    "middleware"
+  ],
+  "author": "Diya",
+  "license": "MIT",
+  "dependencies": {
+    "devshield-sdk": "^1.0.0"
+  }
+}

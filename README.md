@@ -1,98 +1,116 @@
-# 🛡️ DevShield
 
-**DevShield** is a cybersecurity SaaS platform that monitors API traffic and detects malicious attacks in real time.  
-It helps developers protect their APIs with rate limiting, API key security, and live attack visualization.
+⸻
 
----
+DevShield
 
-## 🚀 Features
+🛡️ DevShield is a cybersecurity SaaS platform that monitors and visualizes API attacks in real time.
+It helps developers protect their APIs with attack detection, rate limiting, and global threat monitoring.
 
-- 🔑 **API Key Protection** – Secure APIs with generated keys
-- ⚡ **Rate Limiting** – Prevent abuse and DDoS attacks
-- 🧠 **Attack Detection** – Detect suspicious requests automatically
-- 🌍 **Real-Time Cyber Attack Visualization**
-- 📊 **Live API Usage Dashboard**
-- 📡 **Socket.io Real-Time Updates**
+⸻
 
----
+🚀 Features
+	•	🔑 API Key Protection
+	•	🛑 Attack Detection
+	•	⚡ Rate Limiting
+	•	🌍 Real-time Global Attack Visualization
+	•	📊 Live API Usage Monitoring
+	•	📜 Attack Logs Dashboard
 
-## 🧱 Tech Stack
+⸻
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- TypeScript
-- Socket.io
+🧰 Tech Stack
 
-### Frontend
-- React
-- TypeScript
-- Vite
-- TailwindCSS
-- D3.js
+Frontend
+	•	React
+	•	TypeScript
+	•	TailwindCSS
+	•	Vite
 
----
+Backend
+	•	Node.js
+	•	Express
+	•	MongoDB
+	•	Socket.io
 
-## 📂 Project Structure
-devshield-saas
-│
-├ backend # Node.js API server
-├ devshield-frontend # React dashboard
-├ README.md
-└ package.json
+Security
+	•	API Key Authentication
+	•	Rate Limiting
+	•	Attack Detection Middleware
 
----
+⸻
 
-## ⚙️ Installation
+📸 Screenshots
 
-Clone the repository
+Dashboard
+
+Global Attack Map
+
+API Logs
+
+
+⸻
+
+⚙️ Installation
+
+Clone the repository:
+
 git clone https://github.com/DIYA73/devshield-saas.git
+cd devshield-saas
 
-Install dependencies
+Install dependencies:
+
 npm install
-Run backend
+
+Run backend:
+
 cd backend
 npm run dev
+
+Run frontend:
+
 cd devshield-frontend
 npm run dev
 
----
 
-## 📊 Dashboard Preview
+⸻
 
-Real-time attack monitoring dashboard with:
+📡 API Security Example
 
-- global cyber attack map
-- API usage charts
-- threat detection panels
-- live request streams
+DevShield protects APIs using middleware:
 
----
+app.use("/api", apiKeyAuth);
+app.use("/api", rateLimitMiddleware);
+app.use("/api", attackDetector);
 
-## 🔒 Security Features
 
-DevShield protects APIs using:
+⸻
 
-- rate limiting
-- API authentication
-- attack detection middleware
-- request monitoring
-- usage tracking
+📊 Example Attack Log
 
----
+Time	IP	Country	Attack
+07:41	91.24.x.x	Iran	SQL Injection
+07:42	31.12.x.x	China	Bot Attack
+07:43	72.21.x.x	Russia	Brute Force
+07:44	81.11.x.x	USA	DDoS Probe
 
-## 👩‍💻 Author
 
-**Diya Ismahil**
+⸻
+
+🌐 Future Improvements
+	•	AI threat detection
+	•	Advanced attack analytics
+	•	Cloud deployment
+	•	Real-time notifications
+
+⸻
+
+👩‍💻 Author
+
+Diya Taib Ismahil
 
 Computer Science | Cybersecurity | Full Stack Development
 
-GitHub  
+GitHub:
 https://github.com/DIYA73
 
----
-
-## ⭐ Support
-
-If you like this project, give it a **star ⭐ on GitHub**!
+⸻

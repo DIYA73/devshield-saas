@@ -1,6 +1,4 @@
 
-⸻
-
 DevShield
 
 🛡️ DevShield is a cybersecurity SaaS platform that monitors and visualizes API attacks in real time.
@@ -39,13 +37,16 @@ Security
 
 ⸻
 
-📸 Screenshots
+## 📸 Screenshots
 
-Dashboard
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-Global Attack Map
+### Global Attack Map
+![Attack Map](screenshots/attack-map.png)
 
-API Logs
+### API Logs
+![API Logs](screenshots/api-logs.png)
 
 
 ⸻

@@ -1,22 +1,22 @@
 
 DevShield
 
-🛡️ DevShield is a cybersecurity SaaS platform that monitors and visualizes API attacks in real time.
+### DevShield is a cybersecurity SaaS platform that monitors and visualizes API attacks in real time.
 It helps developers protect their APIs with attack detection, rate limiting, and global threat monitoring.
 
 ⸻
 
-🚀 Features
-	•	🔑 API Key Protection
-	•	🛑 Attack Detection
-	•	⚡ Rate Limiting
-	•	🌍 Real-time Global Attack Visualization
-	•	📊 Live API Usage Monitoring
-	•	📜 Attack Logs Dashboard
+## Features
+	•	 API Key Protection
+	•	 Attack Detection
+	•	 Rate Limiting
+	•	 Real-time Global Attack Visualization
+	•	 Live API Usage Monitoring
+	•	 Attack Logs Dashboard
 
 ⸻
 
-🧰 Tech Stack
+## Tech Stack
 
 Frontend
 	•	React
@@ -37,7 +37,7 @@ Security
 
 ⸻
 
-## 📸 Screenshots
+## Screenshots
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
@@ -51,7 +51,7 @@ Security
 
 ⸻
 
-⚙️ Installation
+## Installation
 
 Clone the repository:
 
@@ -75,7 +75,7 @@ npm run dev
 
 ⸻
 
-📡 API Security Example
+## API Security Example
 
 DevShield protects APIs using middleware:
 
@@ -86,7 +86,7 @@ app.use("/api", attackDetector);
 
 ⸻
 
-📊 Example Attack Log
+## Example Attack Log
 
 Time	IP	Country	Attack
 07:41	91.24.x.x	Iran	SQL Injection
@@ -97,7 +97,7 @@ Time	IP	Country	Attack
 
 ⸻
 
-🌐 Future Improvements
+## Future Improvements
 	•	AI threat detection
 	•	Advanced attack analytics
 	•	Cloud deployment
@@ -105,7 +105,7 @@ Time	IP	Country	Attack
 
 ⸻
 
-👩‍💻 Author
+## Author
 
 Diya Taib Ismahil
 

@@ -438,7 +438,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/DIYA73/devshield-saas/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/DIYA73/devshield-saas/discussions)
-- **Email**: your.email@example.com
+- **Email**: diyaismail7@gmail.com
 
 ---
 
